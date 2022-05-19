@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/anabig114243/sparkml1.py", line 209, in <module>
+    rfe = rfe.fit(var11[X],var11[y])
+  File "/opt/anaconda3/lib/python3.7/site-packages/sklearn/feature_selection/_rfe.py", line 149, in fit
+    return self._fit(X, y)
+  File "/opt/anaconda3/lib/python3.7/site-packages/sklearn/feature_selection/_rfe.py", line 159, in _fit
+    force_all_finite=not tags.get('allow_nan', True))
+  File "/opt/anaconda3/lib/python3.7/site-packages/sklearn/utils/validation.py", line 755, in check_X_y
+    estimator=estimator)
+  File "/opt/anaconda3/lib/python3.7/site-packages/sklearn/utils/validation.py", line 531, in check_array
+    array = np.asarray(array, order=order, dtype=dtype)
+  File "/opt/anaconda3/lib/python3.7/site-packages/numpy/core/_asarray.py", line 85, in asarray
+    return array(a, dtype, copy=False, order=order)
+ValueError: could not convert string to float: 'M'
