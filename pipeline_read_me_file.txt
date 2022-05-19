@@ -33,13 +33,13 @@ hive -f impala.sql
 
 10) Run the following command to run the analysis on the tables we have created in hive and the save the query in output_hive_tables.txt
 
-hive -f output_impala.sql > output_hive_tables.txt
+hive -f output_impala.sql > output2_impala.txt
 
 11) Run the following command to execute sparksql queries
-spark-submit sparksql.py
+spark-submit sparksql.py                          [To generate a output file in text format ]
 
 12) Run the following command to execute sparkml models
-spark-submit sparkml.py
+spark-submit sparkml1.py > output3_sparkml1.txt     [To generate a output file in text format ]
 
 
 
