@@ -1,6 +1,12 @@
 # Capstone_submission
 
-Project Objective: As part of this project, you are required to work on
+### Project Intro ###
+In this project, I have to design data model with all the tables to hold data,
+import the CSVs into a SQL database, transfer SQL database to HDFS/Hive, and perform analysis using
+Hive/Impala/Spark/SparkML using the data and create data and ML pipelines
+
+
+### Project Objective: As part of this project ###
 1. Create data model as per your understanding from the data (you are required include tables names, relation between
 tables, column names, data types, primary & foreign keys etc.)
 2. Create database & tables in MySQL server as per the above ER Diagram
@@ -12,7 +18,19 @@ from hive tables).
 7. Create entire data pipeline and ML pipe line
 
 
-Data Description: Please find the details of all the tables
+### Technology Stack ###
+you are required to work on below technology Stack.
+- MySQL (to create database)
+- Linux Commands
+- Sqoop (Transfer data from MySQL Server to HDFS/Hive)
+- HDFS (to store the data)
+- Hive (to create database)
+- Impala (to perform the EDA)
+- SparkSQL (to perform the EDA)
+- SparkML (to perform model building)
+
+
+### Data Description ###
 a. Titles 
 title_id – Unique id of type of employee (designation id) – Character – Not Null
 title – Designation – Character – Not Null
