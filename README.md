@@ -7,8 +7,7 @@ Hive/Impala/Spark/SparkML using the data and create data and ML pipelines
 
 
 ### Project Objective: As part of this project ###
-1. Create data model as per your understanding from the data (you are required include tables names, relation between
-tables, column names, data types, primary & foreign keys etc.)
+1. Create data model as per understanding from the data.
 2. Create database & tables in MySQL server as per the above ER Diagram
 3. Create Sqoop job to transfer the data from MySQL to HDFS (Data required to store in Parque/Avro/Json format)
 4. Create database in Hive as per the above ER Diagram and load the data into Hive tables
@@ -19,7 +18,7 @@ from hive tables).
 
 
 ### Technology Stack ###
-you are required to work on below technology Stack.
+Required to work on below technology Stack.
 - MySQL (to create database)
 - Linux Commands
 - Sqoop (Transfer data from MySQL Server to HDFS/Hive)
